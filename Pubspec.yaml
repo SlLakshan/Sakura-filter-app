@@ -1,0 +1,14 @@
+name: sakura_filter_app
+description: Sakura Fuel Filter Search
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  csv: ^5.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sakura_filters.csv
